@@ -1,0 +1,48 @@
+
+<html>
+    <head>
+        <title>Even or Odd</title>
+        <style>
+            .main{
+              background-color: rgb(0, 217, 255);
+               max-width: 20%;
+               padding: 100px;
+               margin-left: 30%;
+               margin-top: 10%;
+               box-shadow: 0 15px 15px rgba(0, 0, 0, 1);
+               border-bottom: rgb(30, 255, 169);
+               color: #fff;
+               border-radius: 30%;
+            }
+            .cl button{
+                color: #fff;
+                
+                background-color:coral
+            }
+            
+        </style>
+    </head>
+    <body style="background-color: rgba(0, 255, 64, 0.281);">
+        <div class="main">
+            <h2 style="text-align: center;" >EVEN / ODD</h2>
+            <form onsubmit=" return evenodd()">
+         <div>
+           
+            <input type="text" id="num" placeholder="Enter a number" required>
+        </div>
+        <br>
+        <div class="cl">
+            <button> Check</button>
+        </div><br>
+        
+        <div>
+            
+            <input type="text" id="result" placeholder="Result" disabled>
+        </div><br>
+        <div>
+            <script src="./evenodd.js"></script>
+        </div>
+    </form>
+        </div>
+    </body>
+</html>
